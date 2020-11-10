@@ -5,7 +5,7 @@ for).*/
 #include <stdio.h>
 int main()
 { 
-    int i;//declaration de la variable i pour stocker la valeur saisie
+    int i=10,a=0;//declaration de la variable i pour stocker la valeur saisie
     printf("Entrer une valeur\n");//message pour l utilisateur
     scanf("%d",&i);//recuperation de la valeur saisie
     if (i==10)//Verification si l utilisateur a bien saisi 10
